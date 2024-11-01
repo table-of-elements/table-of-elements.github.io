@@ -8,7 +8,7 @@ title: Datenschutz
 
 # Datenschutzerklärung für Table of Elements
 
-Wir bei **Table of Elements - Schloß, Botta, Plunien GbR** "wir" oder "uns" verpflichten uns, Ihre Privatsphäre zu schützen und sicherzustellen, dass Ihre Daten verantwortungsvoll behandelt werden. Diese Datenschutzerklärung beschreibt, wie wir Informationen in Verbindung mit unserer iOS-App **PM Elements** sowie unserer Webseite https://www.table-of-elements.io sammeln, verwenden und verarbeiten.
+Wir bei **Table of Elements - Schloß, Botta, Plunien GbR** "wir" oder "uns" verpflichten uns, Ihre Privatsphäre zu schützen und sicherzustellen, dass Ihre Daten verantwortungsvoll behandelt werden. Diese Datenschutzerklärung beschreibt, wie wir Informationen in Verbindung mit unserer iOS-App **PM Elements** sowie unserer Webseite unter **[table-of-elements.io](https://www.table-of-elements.io)** sammeln, verwenden und verarbeiten.
 
 ## 1. Datenerhebung und -nutzung
 - **Keine Erhebung personenbezogener Daten:** Table of Elements erhebt keine personenbezogenen Daten, die Sie direkt identifizieren können, wie z. B. Ihren Namen, Ihre Adresse oder Kontaktdaten.

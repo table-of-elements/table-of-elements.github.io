@@ -8,7 +8,7 @@ title: Privacy
 
 # Data Privacy Declaration for Table of Elements
 
-We at **Table of Elements - Schloß, Botta, Plunien GbR** "we" or "us" are committed to protecting your privacy and ensuring that your data is handled responsibly. This privacy declaration describes how we collect, use, and handle information in connection with our iOS app **PM Elements** and our website at https://www.table-of-elements.io.
+We at **Table of Elements - Schloß, Botta, Plunien GbR** "we" or "us" are committed to protecting your privacy and ensuring that your data is handled responsibly. This privacy declaration describes how we collect, use, and handle information in connection with our iOS app **PM Elements** and our website at **[table-of-elements.io](https://www.table-of-elements.io)**.
 
 ## 1. Data Collection and Use
 - **No Personal Data Collection:** Table of Elements does not collect any personal information that can directly identify you, such as your name, address, or contact details.
