@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.table-of-elements.io/sitemap.xml
