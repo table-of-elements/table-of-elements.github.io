@@ -21,9 +21,6 @@ Bernhard Schloß, Christian Botta, Johannes Plunien
 ## Kontakt
 E-Mail: info@table-of-elements.io
 
-## Umsatzsteuer-ID
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: TBD
-
 ## Haftungsausschluss
 
 ### Haftung für Inhalte

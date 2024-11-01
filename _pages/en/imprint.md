@@ -21,9 +21,6 @@ Bernhard Schloß, Christian Botta, Johannes Plunien
 ## Contact
 Email: info@table-of-elements.io
 
-## VAT ID
-Value Added Tax Identification Number according to §27 a of the German VAT Act: TBD
-
 ## Disclaimer
 
 ### Liability for Content
