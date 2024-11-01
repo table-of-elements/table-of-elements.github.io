@@ -34,7 +34,15 @@ Da die App keine personenbezogenen Daten sammelt, gibt es keine spezifischen Ben
 ## 7. Änderungen an dieser Datenschutzerklärung
 Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken oder gesetzlichen Anforderungen widerzuspiegeln. Alle Aktualisierungen werden in der App veröffentlicht. Bitte schauen Sie daher regelmäßig nach den neuesten Informationen.
 
-## 8. Kontaktinformationen
+## 8. In-App-Käufe und Datenschutz
+
+Unsere App, **PM Elements**, bietet In-App-Käufe, die über das **In-App-Kaufsystem von Apple** abgewickelt werden. Wenn Sie einen In-App-Kauf tätigen, erfolgt die Zahlungsabwicklung direkt durch Apple, einschließlich der Verarbeitung Ihrer Zahlungsinformationen. Dies bedeutet, dass sensible Informationen, wie z. B. Zahlungsdetails, von Apple und nicht von uns gesammelt und verarbeitet werden.
+
+Weitere Informationen darüber, wie Apple Ihre Daten bei In-App-Käufen verarbeitet, finden Sie in der Datenschutzrichtlinie von Apple: [Apple Datenschutzrichtlinie](https://www.apple.com/legal/privacy/de-ww/).
+
+Wir haben keinen Zugriff auf Ihre Zahlungsinformationen und speichern diese auch nicht. Bei Fragen zur Zahlungssicherheit und zum Datenschutz im Zusammenhang mit In-App-Käufen wenden Sie sich bitte an Apple oder konsultieren Sie die Datenschutzrichtlinie von Apple.
+
+## 9. Kontaktinformationen
 Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzerklärung haben, wenden Sie sich bitte an uns unter:
 
 **Table of Elements - Schloß, Botta, Plunien GbR**\

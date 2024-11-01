@@ -34,7 +34,15 @@ As the app does not collect personal data, there is no specific user data to mod
 ## 7. Changes to this Privacy Declaration
 We may update this privacy declaration from time to time to reflect changes in our practices or legal requirements. Any updates will be posted within the app, so please check back periodically for the latest information.
 
-## 8. Contact Information
+## 8. In-App Purchases and Data Privacy
+
+Our app, **PM Elements**, offers in-app purchases managed by **Apple's In-App Purchase** system. When you make an in-app purchase, Apple handles the transaction directly, including the processing of payment information. This means that sensitive information, such as payment details, is collected and processed by Apple and not by us.
+
+For details on how Apple handles your data during in-app purchases, please refer to Apple’s privacy policy: [Apple Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
+We do not have access to or store any of your payment information. For any concerns related to payment security and data protection during in-app purchases, please review Apple’s policies or contact Apple directly.
+
+## 9. Contact Information
 If you have any questions or concerns about this privacy declaration, please contact us at:
 
 **Table of Elements - Schloß, Botta, Plunien GbR**\
