@@ -12,4 +12,4 @@ title: "Table of Elements: Bald erhältlich"
   <h2>Bald erhältlich</h2>
 </div>
 
-<img src="/assets/img/de/landing.png" class="img-fluid mt-5">
+{% include figure.liquid loading="eager" path="assets/img/de/landing.png" class="img-fluid mt-5" %}

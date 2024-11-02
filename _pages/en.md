@@ -12,4 +12,4 @@ title: "Table of Elements: Coming soon"
   <h2>Coming soon</h2>
 </div>
 
-<img src="/assets/img/en/landing.png" class="img-fluid mt-5">
+{% include figure.liquid loading="eager" path="assets/img/en/landing.png" class="img-fluid mt-5" %}
