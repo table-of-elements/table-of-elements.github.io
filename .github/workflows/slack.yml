@@ -1,3 +1,4 @@
+name: Slack notification
 on:
   workflow_run:
     workflows: [pages-build-deployment]
