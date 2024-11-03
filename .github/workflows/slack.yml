@@ -11,6 +11,6 @@ jobs:
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_MESSAGE_ON_SUCCESS: The website has been updated
-          SLACK_MESSAGE_ON_FAILURE: The website could not be updated
+          SLACK_CUSTOM_PAYLOAD: '{"text": "Website deploy finished: ${{ github.event.workflow_run.conclusion }}"}'
+          SLACK_ICON: 'https://avatars.githubusercontent.com/u/186667446'
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
