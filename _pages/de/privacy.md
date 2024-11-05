@@ -48,7 +48,13 @@ Wenn Sie über ein Android-Gerät einen In-App-Kauf tätigen, erfolgt die Zahlun
 
 Wir haben keinen Zugriff auf Ihre Zahlungsinformationen und speichern diese auch nicht. Bei Fragen zur Zahlungssicherheit und zum Datenschutz im Zusammenhang mit In-App-Käufen wenden Sie sich bitte direkt an Apple bzw. Google oder konsultieren Sie deren Datenschutzrichtlinien.
 
-## 9. Kontaktinformationen
+## 9. Datenschutzerklärung für unseren Online-Shop
+
+Wir betreiben einen Online-Shop unter [https://shop.table-of-elements.io](https://shop.table-of-elements.io). Die Datenschutzpraktiken für unseren Shop, einschließlich der Erhebung, Nutzung und des Schutzes von Kundendaten auf dieser Plattform, sind in einer separaten Datenschutzerklärung aufgeführt.
+
+Weitere Informationen zur Datenverarbeitung in Bezug auf unseren Shop finden Sie in der Datenschutzerklärung unseres Shops: [Shop-Datenschutzerklärung](https://shop.table-of-elements.io/policies/privacy-policy).
+
+## 10. Kontaktinformationen
 Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzerklärung haben, wenden Sie sich bitte an uns unter:
 
 **Table of Elements - Schloß, Botta, Plunien GbR**\

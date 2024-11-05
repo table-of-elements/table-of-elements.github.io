@@ -48,7 +48,13 @@ If you make an in-app purchase on an Android device, the transaction is handled 
 
 We do not have access to or store any of your payment information. For any concerns related to payment security and data protection during in-app purchases, please refer to Apple’s or Google’s privacy policies, or contact them directly.
 
-## 9. Contact Information
+## 9. Privacy Policy for Our Online Shop
+
+We operate an online shop at [https://shop.table-of-elements.io](https://shop.table-of-elements.io). The privacy practices for our shop, including how we collect, use, and protect customer data on this platform, are detailed in a separate privacy policy.
+
+For information on how data is managed specifically in relation to our shop, please refer to our shop’s privacy policy: [Shop Privacy Policy](https://shop.table-of-elements.io/policies/privacy-policy).
+
+## 10. Contact Information
 If you have any questions or concerns about this privacy declaration, please contact us at:
 
 **Table of Elements - Schloß, Botta, Plunien GbR**\

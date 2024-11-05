@@ -21,6 +21,12 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 navigation:
+  - title: Shop
+    url: https://shop.table-of-elements.io
+    lang: en
+  - title: Shop
+    url: https://shop.table-of-elements.io
+    lang: de
   - title: Privacy
     url: /en/privacy/
     lang: en
