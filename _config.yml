@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 name: Table of Elements
 email: info@table-of-elements.io
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Table of Elements Methodensystem – Ihr strategischer Vorteil im Projektmanagement
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
