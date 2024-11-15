@@ -4,7 +4,6 @@ lang: de
 layout: default
 nav: false
 permalink: /de/
-title: "Table of Elements: Bald erhältlich"
 ---
 
 <div class="header-bar">

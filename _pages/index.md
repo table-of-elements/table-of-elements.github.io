@@ -4,7 +4,6 @@ lang: en
 layout: default
 nav: false
 permalink: /
-title: "Table of Elements: Coming soon"
 ---
 
 <div class="header-bar">
