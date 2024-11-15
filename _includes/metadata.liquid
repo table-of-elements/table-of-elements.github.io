@@ -65,8 +65,9 @@
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{{ description }}">
   {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
-    <meta property="og:logo" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    {% assign og_image = page.og_image | default: site.og_image | prepend: site.baseurl | prepend: site.url %}
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:logo" content="{{ og_image }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
