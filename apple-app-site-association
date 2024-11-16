@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "TX9T7SQ43S.com.aptumtek.app.PeriodicSystem",
+        "appID": "62MAVRH8K7.io.table-of-elements.app.PMElements",
         "paths": [
           "NOT /_/*",
           "/*"
