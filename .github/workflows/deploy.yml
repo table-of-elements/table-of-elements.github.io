@@ -16,6 +16,7 @@ on:
       - "Gemfile"
       - "Gemfile.lock"
       - "assets/**"
+      - "data"
   workflow_dispatch:
 
 permissions:
