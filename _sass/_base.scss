@@ -507,13 +507,12 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   h1 {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
     font-size: 3rem;
     font-weight: 800;
   }

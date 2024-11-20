@@ -8,6 +8,10 @@ permalink: /de/
 
 <div class="header-bar">
   <h1>Table of Elements</h1>
+  <a href="https://apps.apple.com/us/app/pm-elements/id6738084498">
+    {% include figure.liquid loading="eager" path="assets/img/en/appstore.png" class="img-fluid mt-4" width="120" height="40" alt="Laden im App Store" %}
+  </a>
+  {% include figure.liquid loading="eager" path="assets/img/de/landing.png" class="img-fluid mt-4" width="1400" height="925" alt="Screenshot der iOS App" %}
   <div class="container mt-4">
     <div class="row">
       <div class="col">
@@ -16,9 +20,4 @@ permalink: /de/
       </div>
     </div>
   </div>
-  <a href="https://apps.apple.com/us/app/pm-elements/id6738084498">
-    {% include figure.liquid loading="eager" path="assets/img/en/appstore.png" class="img-fluid mt-4" width="120" height="40" alt="Laden im App Store" %}
-  </a>
 </div>
-
-{% include figure.liquid loading="eager" path="assets/img/de/landing.png" class="img-fluid mt-5" width="1400" height="925" alt="Screenshot der iOS App" %}
