@@ -14,5 +14,5 @@ permalink: /de/
   </a>
   <p>Navigieren Sie Projekte mit Klarheit und Präzision: Das Table of Elements Methodensystem bietet einen umfassenden Überblick über die 132 bewährtesten Werkzeuge im Projektmanagement. Entwickelt von Experten und praxisbewährt, liefert dieses Methodensystem auf einen Blick Orientierung und Struktur. Es umfasst alle Tools, klar kategorisiert, die Sie gezielt nach Teamgröße, Aufwand, Komplexität und Wirkung auswählen können.</p>
   <p>Jede Methode ist fundiert beschrieben und bewertet, ergänzt durch umsetzbare Tipps, sodass Sie für jede Projektphase und jeden Kontext schnell das richtige Tool zur Hand haben.</p>
-  {% include video.liquid path="https://www.youtube.com/embed/ZDGIVYX-11s?si=ZvEbm7uMcnezLdjV" class="img-fluid rounded z-depth-1 mt-4" %}
+  <lite-youtube videoid="ZDGIVYX-11s" class="mt-4"></lite-youtube>
 </div>
