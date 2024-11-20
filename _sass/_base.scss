@@ -506,6 +506,16 @@ footer.sticky-bottom {
 
 // Blog
 
+.header-bar {
+  text-align: center;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
+
 .landing {
   text-align: center;
 
