@@ -41,14 +41,18 @@
 
 <meta name="author" content="{{ author_name }}">
 
-{% assign description = page.description %}
-{% for desc in site.description %}
-  {% assign lang = page.lang | default: site.lang %}
-  {% if desc.lang == lang %}
-    {% assign description = desc.content %}
-  {% endif %}
-{% endfor %}
-<meta name="description" content="{{ description }}">
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% else %}
+  {% assign description = page.description %}
+  {% for desc in site.description %}
+    {% assign lang = page.lang | default: site.lang %}
+    {% if desc.lang == lang %}
+      {% assign description = desc.content %}
+    {% endif %}
+  {% endfor %}
+  <meta name="description" content="{{ description }}">
+{% endif %}
 
 {% if page.noindex %}
 <meta name="robots" content="noindex">
