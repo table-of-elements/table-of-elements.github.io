@@ -5,6 +5,7 @@ permalink: /en/elements/AI/
 subtitle: "Action Items"
 title: "AI | Action Items"
 description: "The Action Item List is a simple tool for managing and tracking tasks and open issues in a project. It helps clarify responsibilities and monitor progress."
+og_image: /assets/img/elements/en/AI.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/AI.card.png" class="img-fluid" width="300" height="300" alt="AI | Action Items" %}

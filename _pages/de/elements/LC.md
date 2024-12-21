@@ -5,6 +5,7 @@ permalink: /de/elements/LC/
 subtitle: "Lean Coffee"
 title: "LC | Lean Coffee"
 description: "Lean Coffee ist eine strukturierte, aber agendafreie, informelle Meeting-Methode, die es Teams ermöglicht, Diskussionen und Entscheidungsfindungen effizient zu gestalten. Auf einem Taskboard ([TA](pm-elements://host/element/TA)) werden Themen gesammelt, priorisiert und anschließend diskutiert."
+og_image: /assets/img/elements/de/LC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/LC.card.png" class="img-fluid" width="300" height="300" alt="LC | Lean Coffee" %}

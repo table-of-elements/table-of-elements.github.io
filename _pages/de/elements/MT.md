@@ -5,6 +5,7 @@ permalink: /de/elements/MT/
 subtitle: "Magisches Dreieck"
 title: "MT | Magisches Dreieck"
 description: "Das magische Dreieck (Englisch: Magic Traingle) ist ein Konzept des Projektmanagements, das die drei zentralen Faktoren eines Projekts darstellt: Zeit, Kosten und Umfang. Es hilft, die Balance zwischen diesen Faktoren zu verstehen und zu steuern."
+og_image: /assets/img/elements/de/MT.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/MT.card.png" class="img-fluid" width="300" height="300" alt="MT | Magisches Dreieck" %}

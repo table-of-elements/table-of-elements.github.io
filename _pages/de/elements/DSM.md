@@ -5,6 +5,7 @@ permalink: /de/elements/DSM/
 subtitle: "Entscheidungsfolgenmatrix"
 title: "DSM | Entscheidungsfolgenmatrix"
 description: "Die Entscheidungsfolgenmatrix (Englisch: Decision Sequence Matrix) ist ein Werkzeug zur Bewertung der Auswirkungen verschiedener Entscheidungen auf ein Projekt oder eine Organisation. Sie hilft, die möglichen Folgen von Entscheidungen systematisch zu analysieren und fundierte Entscheidungen zu treffen."
+og_image: /assets/img/elements/de/DSM.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/DSM.card.png" class="img-fluid" width="300" height="300" alt="DSM | Entscheidungsfolgenmatrix" %}

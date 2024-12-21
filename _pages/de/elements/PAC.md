@@ -5,6 +5,7 @@ permalink: /de/elements/PAC/
 subtitle: "Plan-Ist-Vergleich"
 title: "PAC | Plan-Ist-Vergleich"
 description: "Der Plan-Ist-Vergleich (Englisch: Planned/Actual Comparison) ist eine Methode zur Überwachung und Steuerung von Projekten oder Ergebnissen, bei der geplante Werte mit den tatsächlichen Ergebnissen verglichen werden. Dies hilft, Abweichungen frühzeitig zu erkennen und entsprechende Maßnahmen zu ergreifen."
+og_image: /assets/img/elements/de/PAC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/PAC.card.png" class="img-fluid" width="300" height="300" alt="PAC | Plan-Ist-Vergleich" %}

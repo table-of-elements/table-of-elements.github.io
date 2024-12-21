@@ -5,6 +5,7 @@ permalink: /en/elements/STP/
 subtitle: "Stakeholder Profile"
 title: "STP | Stakeholder Profile"
 description: "A Stakeholder Profile is a document that collects detailed information about a stakeholder to understand their interests, influence, and expectations in the project. It supports the development of targeted communication and management strategies."
+og_image: /assets/img/elements/en/STP.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/STP.card.png" class="img-fluid" width="300" height="300" alt="STP | Stakeholder Profile" %}

@@ -5,6 +5,7 @@ permalink: /en/elements/BC/
 subtitle: "Burn-Down Chart"
 title: "BC | Burn-Down Chart"
 description: "Burn-Down and Burn-Up Charts are visual tools for tracking project progress in agile project management. The burn-down chart shows the remaining work over time, while the burn-up chart shows the completed work and the total scope. Both help to monitor progress and identify bottlenecks."
+og_image: /assets/img/elements/en/BC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/BC.card.png" class="img-fluid" width="300" height="300" alt="BC | Burn-Down Chart" %}

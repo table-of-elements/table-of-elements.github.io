@@ -5,6 +5,7 @@ permalink: /de/elements/LSP/
 subtitle: "Lego Serious Play"
 title: "LSP | Lego Serious Play"
 description: "LEGO® SERIOUS PLAY® ist eine moderierte Methode, die mit LEGO Steinen kreatives Denken und Problemlösen fördert. Sie hilft, komplexe Probleme zu visualisieren, zu verstehen und gemeinsam Lösungen zu entwickeln."
+og_image: /assets/img/elements/de/LSP.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/LSP.card.png" class="img-fluid" width="300" height="300" alt="LSP | Lego Serious Play" %}

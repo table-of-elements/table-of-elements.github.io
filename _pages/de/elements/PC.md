@@ -5,6 +5,7 @@ permalink: /de/elements/PC/
 subtitle: "Projektauftrag"
 title: "PC | Projektauftrag"
 description: "Der Projektauftrag (Englisch: Project Charter) ist ein Dokument, das die wichtigsten Informationen über ein Projekt zusammenfasst. Er dient als formelle Genehmigung des Projekts und legt die grundlegenden Ziele und den Umfang fest."
+og_image: /assets/img/elements/de/PC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/PC.card.png" class="img-fluid" width="300" height="300" alt="PC | Projektauftrag" %}

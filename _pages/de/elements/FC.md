@@ -5,6 +5,7 @@ permalink: /de/elements/FC/
 subtitle: "Flow Chart"
 title: "FC | Flow Chart"
 description: "Ein Flussdiagramm ist ein visuelles Werkzeug, das die Abfolge von Schritten in einem Prozess darstellt. Es hilft dabei, Prozesse zu verstehen, zu analysieren und zu optimieren."
+og_image: /assets/img/elements/de/FC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/FC.card.png" class="img-fluid" width="300" height="300" alt="FC | Flow Chart" %}

@@ -5,6 +5,7 @@ permalink: /de/elements/EM/
 subtitle: "Empathy Map"
 title: "EM | Empathy Map"
 description: "Die Empathy Map ist ein Visualisierungstool, das sich auf die Perspektive der Nutzer oder Kunden konzentriert und versucht, ein besseres Verständnis für diese zu generieren. Sie hilft, Einblicke in die Bedürfnisse, Gedanken, Gefühle und Verhaltensweisen der Zielgruppe zu gewinnen und unterstützt die nutzerzentrierte Entwicklung von Produkten oder Dienstleistungen."
+og_image: /assets/img/elements/de/EM.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/EM.card.png" class="img-fluid" width="300" height="300" alt="EM | Empathy Map" %}

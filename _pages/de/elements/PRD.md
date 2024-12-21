@@ -5,6 +5,7 @@ permalink: /de/elements/PRD/
 subtitle: "Lastenheft"
 title: "PRD | Lastenheft"
 description: "Das Lastenheft (Englisch: Product Requirments Document) ist ein Dokument, das Anforderungen an ein Produkt oder ein Projekt detailliert beschreibt. Es dient als Grundlage für die Kommunikation zwischen Auftraggeber und Auftragnehmer und stellt sicher, dass diese ein gemeinsames Verständnis der Projektziele haben."
+og_image: /assets/img/elements/de/PRD.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/PRD.card.png" class="img-fluid" width="300" height="300" alt="PRD | Lastenheft" %}

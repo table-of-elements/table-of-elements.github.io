@@ -5,6 +5,7 @@ permalink: /en/elements/RM/
 subtitle: "Roadmap"
 title: "RM | Roadmap"
 description: "A roadmap is a visual planning tool that outlines the key milestones, goals, and tasks of a project or strategy over time. It helps to visualize the project timeline and improve communication."
+og_image: /assets/img/elements/en/RM.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/RM.card.png" class="img-fluid" width="300" height="300" alt="RM | Roadmap" %}

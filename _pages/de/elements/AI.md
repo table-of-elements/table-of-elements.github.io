@@ -5,6 +5,7 @@ permalink: /de/elements/AI/
 subtitle: "Offene Punkte Liste"
 title: "AI | Offene Punkte Liste"
 description: "Die offene Punkte Liste (Action Item List) ist ein einfaches Werkzeug, um Aufgaben und offene Punkte in einem Projekt zu verwalten und zu verfolgen. Sie hilft, Verantwortlichkeiten zu klären und den Fortschritt zu überwachen."
+og_image: /assets/img/elements/de/AI.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/AI.card.png" class="img-fluid" width="300" height="300" alt="AI | Offene Punkte Liste" %}

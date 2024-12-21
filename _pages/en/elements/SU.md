@@ -5,6 +5,7 @@ permalink: /en/elements/SU/
 subtitle: "Survey"
 title: "SU | Survey"
 description: "A survey is a tool for collecting opinions, feedback, and data from stakeholders or team members. It supports decision-making and understanding needs and expectations."
+og_image: /assets/img/elements/en/SU.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/SU.card.png" class="img-fluid" width="300" height="300" alt="SU | Survey" %}

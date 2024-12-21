@@ -5,6 +5,7 @@ permalink: /en/elements/OB/
 subtitle: "Obeya"
 title: "OB | Obeya"
 description: "Obeya is a method that uses a large room to display project information, goals and progress visually and condensed in one place. This space acts as a command center for the project."
+og_image: /assets/img/elements/en/OB.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/OB.card.png" class="img-fluid" width="300" height="300" alt="OB | Obeya" %}

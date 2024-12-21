@@ -5,6 +5,7 @@ permalink: /de/elements/KU/
 subtitle: "Kudos"
 title: "KU | Kudos"
 description: "KUDOS ist eine Methode zur Anerkennung und Wertschätzung von Teammitgliedern. Sie fördert die Motivation und den Teamzusammenhalt durch das öffentliche Aussprechen von Dank und Lob für besondere Leistungen."
+og_image: /assets/img/elements/de/KU.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/KU.card.png" class="img-fluid" width="300" height="300" alt="KU | Kudos" %}

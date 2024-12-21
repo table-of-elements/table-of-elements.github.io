@@ -5,6 +5,7 @@ permalink: /de/elements/TB/
 subtitle: "Time Boxing"
 title: "TB | Time Boxing"
 description: "Timeboxing ist eine Methode des Zeitmanagements, bei der feste Zeitrahmen für bestimmte Aufgaben oder Aktivitäten festgelegt werden. Sie hilft, die Produktivität zu steigern und Ablenkungen zu minimieren."
+og_image: /assets/img/elements/de/TB.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/TB.card.png" class="img-fluid" width="300" height="300" alt="TB | Time Boxing" %}

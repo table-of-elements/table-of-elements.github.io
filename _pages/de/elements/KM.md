@@ -5,6 +5,7 @@ permalink: /de/elements/KM/
 subtitle: "Kano-Modell"
 title: "KM | Kano-Modell"
 description: "Das Kano-Modell ist eine Methode zur Kategorisierung und Priorisierung von Kundenanforderungen. Es hilft zu verstehen, welche Merkmale eines Produkts oder einer Dienstleistung die Kundenzufriedenheit erhöhen und welche als selbstverständlich angesehen werden."
+og_image: /assets/img/elements/de/KM.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/KM.card.png" class="img-fluid" width="300" height="300" alt="KM | Kano-Modell" %}

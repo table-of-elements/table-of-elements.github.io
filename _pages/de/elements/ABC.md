@@ -5,6 +5,7 @@ permalink: /de/elements/ABC/
 subtitle: "ABC-Analyse"
 title: "ABC | ABC-Analyse"
 description: "Die ABC-Analyse ist eine Methode zur Klassifizierung von Elementen (z.B. Produkte, Kunden, Aufgaben) nach ihrer Wichtigkeit. Sie teilt die Elemente in drei Kategorien ein: A (sehr wichtig), B (wichtig) und C (weniger wichtig). Diese Methode hilft, Prioritäten zu setzen und Ressourcen effizienter zu nutzen."
+og_image: /assets/img/elements/de/ABC.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/ABC.card.png" class="img-fluid" width="300" height="300" alt="ABC | ABC-Analyse" %}

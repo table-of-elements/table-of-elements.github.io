@@ -5,6 +5,7 @@ permalink: /en/elements/IN/
 subtitle: "Interview"
 title: "IN | Interview"
 description: "An interview is a direct questioning of a person or group to gather information. It is particularly suitable for gaining detailed insights and clarifying complex issues."
+og_image: /assets/img/elements/en/IN.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/IN.card.png" class="img-fluid" width="300" height="300" alt="IN | Interview" %}

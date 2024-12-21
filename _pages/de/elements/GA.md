@@ -5,6 +5,7 @@ permalink: /de/elements/GA/
 subtitle: "Gap-Analyse"
 title: "GA | Gap-Analyse"
 description: "Die Gap-Analyse oder Lückenanalyse befasst sich mit der Abweichung zwischen dem angestrebten Soll-Wert und dem vorhandenen oder erwarteten Ist-Wert. Sie hilft, Bereiche zu identifizieren, die verbessert oder angepasst werden müssen, und Maßnahmen zu definieren, um diese Lücke zu schließen."
+og_image: /assets/img/elements/de/GA.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/GA.card.png" class="img-fluid" width="300" height="300" alt="GA | Gap-Analyse" %}

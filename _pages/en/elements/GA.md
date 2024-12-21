@@ -5,6 +5,7 @@ permalink: /en/elements/GA/
 subtitle: "Gap Analysis"
 title: "GA | Gap Analysis"
 description: "The gap analysis deals with the deviation between the desired target value and the existing or expected actual value. It helps to identify areas that need to be improved or adjusted and to define measures to close this gap."
+og_image: /assets/img/elements/en/GA.card.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/GA.card.png" class="img-fluid" width="300" height="300" alt="GA | Gap Analysis" %}
