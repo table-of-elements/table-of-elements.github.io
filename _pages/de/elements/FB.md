@@ -5,7 +5,7 @@ permalink: /de/elements/FB/
 subtitle: "Feedback"
 title: "FB | Feedback"
 description: "Feedback ist ein wichtiger Kommunikationsprozess, bei dem Informationen über das Verhalten oder die Leistung einer Person oder eines Teams ausgetauscht werden. Ziel ist es, Anerkennung zu geben, Verbesserungen anzuregen und das Lernen zu fördern."
-og_image: /assets/img/elements/de/FB.card.png
+og_image: /assets/img/elements/de/FB.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/FB.card.png" class="img-fluid" width="300" height="300" alt="FB | Feedback" %}

@@ -5,7 +5,7 @@ permalink: /de/elements/BL/
 subtitle: "Backlog"
 title: "BL | Backlog"
 description: "Ein Backlog ist eine geordnete Liste aller Aufgaben, Features, Anforderungen und Arbeitspakete, die in einem Projekt erledigt werden müssen. Die Liste wird von oben nach unten priorisiert und zwar nach dem Wert der Anforderungen für den Kunden. Anforderungen, die ganz oben auf der Liste stehen, werden zuerst realisiert und sind sehr detailliert, während Aufgaben, die weiter unten auf der Liste stehen, zunächst nur rudimentär beschrieben werden."
-og_image: /assets/img/elements/de/BL.card.png
+og_image: /assets/img/elements/de/BL.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/BL.card.png" class="img-fluid" width="300" height="300" alt="BL | Backlog" %}

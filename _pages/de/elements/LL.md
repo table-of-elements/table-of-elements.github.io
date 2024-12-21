@@ -5,7 +5,7 @@ permalink: /de/elements/LL/
 subtitle: "Lessons Learned"
 title: "LL | Lessons Learned"
 description: "Lessons Learned ist eine Methode zur systematischen Erfassung und Analyse von Erkenntnissen aus abgeschlossenen Projekten. Sie hilft, Stärken und Schwächen zu identifizieren und kann so unter Umständen zukünftigen Projekten helfen."
-og_image: /assets/img/elements/de/LL.card.png
+og_image: /assets/img/elements/de/LL.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/LL.card.png" class="img-fluid" width="300" height="300" alt="LL | Lessons Learned" %}

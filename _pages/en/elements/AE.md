@@ -5,7 +5,7 @@ permalink: /en/elements/AE/
 subtitle: "Alternative Evaluation"
 title: "AE | Alternative Evaluation"
 description: "The alternatives evaluation is a structured procedure for evaluating and selecting the best option from several alternatives. This method helps to make well-founded decisions by taking various criteria and weightings into account."
-og_image: /assets/img/elements/en/AE.card.png
+og_image: /assets/img/elements/en/AE.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/AE.card.png" class="img-fluid" width="300" height="300" alt="AE | Alternative Evaluation" %}

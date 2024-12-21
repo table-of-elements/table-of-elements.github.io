@@ -5,7 +5,7 @@ permalink: /en/elements/LS/
 subtitle: "Liberating Structures"
 title: "LS | Liberating Structures"
 description: "Liberating Structures are a collection of micro-structures. They help groups to work together effectively and develop creative solutions. They encourage participation and commitment from all involved."
-og_image: /assets/img/elements/en/LS.card.png
+og_image: /assets/img/elements/en/LS.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/LS.card.png" class="img-fluid" width="300" height="300" alt="LS | Liberating Structures" %}

@@ -5,7 +5,7 @@ permalink: /de/elements/PMA/
 subtitle: "Projekthandbuch"
 title: "PMA | Projekthandbuch"
 description: "Das Projekthandbuch (Englisch: Project Manual) ist ein zentrales Dokument, das alle relevanten Informationen und Vorgaben für die Durchführung eines Projekts enthält. Es dient als Leitfaden und Referenz für das Projektteam und die Stakeholder."
-og_image: /assets/img/elements/de/PMA.card.png
+og_image: /assets/img/elements/de/PMA.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/PMA.card.png" class="img-fluid" width="300" height="300" alt="PMA | Projekthandbuch" %}

@@ -5,7 +5,7 @@ permalink: /de/elements/NC/
 subtitle: "Gewaltfreie Kommunikation"
 title: "NC | Gewaltfreie Kommunikation"
 description: "Gewaltfreie Kommunikation (Englisch: Non-violent comunication) ist ein Kommunikationsmodell, das darauf abzielt, einfühlsame und respektvolle Interaktionen zu fördern. Sie hilft, Konflikte zu lösen und die Qualität von Beziehungen zu verbessern. Das Konzept basiert auf den Ideeen von Marshall B. Rosenberg."
-og_image: /assets/img/elements/de/NC.card.png
+og_image: /assets/img/elements/de/NC.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/NC.card.png" class="img-fluid" width="300" height="300" alt="NC | Gewaltfreie Kommunikation" %}

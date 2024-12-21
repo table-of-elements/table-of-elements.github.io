@@ -5,7 +5,7 @@ permalink: /en/elements/CM/
 subtitle: "Context Map"
 title: "CM | Context Map"
 description: "The Context Map is a tool for visualizing and analyzing the environment of a project or system. It helps identify external factors and influences that can affect success."
-og_image: /assets/img/elements/en/CM.card.png
+og_image: /assets/img/elements/en/CM.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/CM.card.png" class="img-fluid" width="300" height="300" alt="CM | Context Map" %}

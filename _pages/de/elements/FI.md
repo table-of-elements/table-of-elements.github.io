@@ -5,7 +5,7 @@ permalink: /de/elements/FI/
 subtitle: "Fishbowl"
 title: "FI | Fishbowl"
 description: "Die Fishbowl-Methode ist ein Moderationstool, das eine dynamische und offene Diskussion in großen Gruppen ermöglicht. Es fördert den Austausch von Ideen und Perspektiven, indem Teilnehmer zwischen einer inneren und äußeren Gesprächsrunde wechseln."
-og_image: /assets/img/elements/de/FI.card.png
+og_image: /assets/img/elements/de/FI.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/FI.card.png" class="img-fluid" width="300" height="300" alt="FI | Fishbowl" %}

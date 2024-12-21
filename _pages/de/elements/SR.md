@@ -5,7 +5,7 @@ permalink: /de/elements/SR/
 subtitle: "Statusbericht"
 title: "SR | Statusbericht"
 description: "Ein Statusbericht (Englisch: Status Report) ist ein regelmäßiges Berichtsinstrument, das den aktuellen Stand eines Projekts dokumentiert. Er umfasst Informationen zu Fortschritten, Problemen und nächsten Schritten und unterstützt die Kommunikation mit Stakeholdern."
-og_image: /assets/img/elements/de/SR.card.png
+og_image: /assets/img/elements/de/SR.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/SR.card.png" class="img-fluid" width="300" height="300" alt="SR | Statusbericht" %}

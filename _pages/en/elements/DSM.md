@@ -5,7 +5,7 @@ permalink: /en/elements/DSM/
 subtitle: "Decision Sequence Matrix"
 title: "DSM | Decision Sequence Matrix"
 description: "The Decision Sequence Matrix is a tool for evaluating the impact of various decisions on a project or organization. It helps to systematically analyze the possible consequences of decisions and make well-founded decisions."
-og_image: /assets/img/elements/en/DSM.card.png
+og_image: /assets/img/elements/en/DSM.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/DSM.card.png" class="img-fluid" width="300" height="300" alt="DSM | Decision Sequence Matrix" %}

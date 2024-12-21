@@ -5,7 +5,7 @@ permalink: /en/elements/GY/
 subtitle: "Getting to Yes"
 title: "GY | Getting to Yes"
 description: "The Negotioan concept developed by the Harvard Negotiation Project is also known as 'Getting to Yes'. It is an approach to negotiation based on principles that seek win-win solutions. It focuses on interests rather than positions and encourages collaborative problem solving."
-og_image: /assets/img/elements/en/GY.card.png
+og_image: /assets/img/elements/en/GY.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/GY.card.png" class="img-fluid" width="300" height="300" alt="GY | Getting to Yes" %}

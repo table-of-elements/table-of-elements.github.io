@@ -5,7 +5,7 @@ permalink: /de/elements/DCN/
 subtitle: "Decision Canvas"
 title: "DCN | Decision Canvas"
 description: "Bei dem Decision Canvas handelt es sich um ein visuelles Denkwerkzeug für den Start von Entscheidungsprozessen oder -projekten. Es ermöglicht Personen mit komplexem Entscheidungsbedarf, ihren Entscheidungsbedarf systematisch zu reflektieren und Klarheit zu gewinnen."
-og_image: /assets/img/elements/de/DCN.card.png
+og_image: /assets/img/elements/de/DCN.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/de/DCN.card.png" class="img-fluid" width="300" height="300" alt="DCN | Decision Canvas" %}

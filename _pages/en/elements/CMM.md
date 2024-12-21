@@ -5,7 +5,7 @@ permalink: /en/elements/CMM/
 subtitle: "Capability Maturity Model"
 title: "CMM | Capability Maturity Model"
 description: "The Capability Maturity Model (CMM) and the Capability Maturity Model Integration (CMMI) are models for evaluating and improving process maturity (maturity models). They help to systematically develop and optimize processes in order to increase quality and efficiency."
-og_image: /assets/img/elements/en/CMM.card.png
+og_image: /assets/img/elements/en/CMM.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/CMM.card.png" class="img-fluid" width="300" height="300" alt="CMM | Capability Maturity Model" %}

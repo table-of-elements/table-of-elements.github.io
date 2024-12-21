@@ -5,7 +5,7 @@ permalink: /en/elements/CP/
 subtitle: "Communication Plan"
 title: "CP | Communication Plan"
 description: "The Communication Plan is a strategic document that defines the communication goals, methods, frequencies, and responsibilities in a project. It ensures that all stakeholders receive the necessary information at the right time."
-og_image: /assets/img/elements/en/CP.card.png
+og_image: /assets/img/elements/en/CP.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/CP.card.png" class="img-fluid" width="300" height="300" alt="CP | Communication Plan" %}

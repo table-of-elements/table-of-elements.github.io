@@ -5,7 +5,7 @@ permalink: /en/elements/PP/
 subtitle: "Planning Poker"
 title: "PP | Planning Poker"
 description: "Planning Poker is a technique for estimating the amount of work involved in agile projects. Team members use cards with numerical values to assess the complexity of user stories or tasks."
-og_image: /assets/img/elements/en/PP.card.png
+og_image: /assets/img/elements/en/PP.og.png
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/elements/en/PP.card.png" class="img-fluid" width="300" height="300" alt="PP | Planning Poker" %}
