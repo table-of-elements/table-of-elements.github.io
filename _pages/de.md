@@ -23,7 +23,7 @@ permalink: /de/
           <div class="card h-100 hoverable">
             {% include figure.liquid loading="eager" path="assets/img/guido_bosbach.jpg" class="img-fluid rounded mt-4" width="90" height="120" alt="Guido Bosbach" %}
             <div class="card-body">
-              <h2 class="card-title">Guido Bosbach</h2>
+              <h3 class="card-title">Guido Bosbach</h3>
               <p class="card-text">Die Table of PM Elements ist eine kompakte und zugleich super umfassende Übersicht von Methoden, Konzepten, Tools und Impulsen. Einfach strukturiert, leicht zu handhaben, als Übersicht oder als Hilfestellung für die Arbeit mit (noch eher ungewohnten) Werkzeugen.</p>
               <div class="row ml-1 mr-1 p-0"></div>
             </div>
@@ -35,7 +35,7 @@ permalink: /de/
           <div class="card h-100 hoverable">
             {% include figure.liquid loading="eager" path="assets/img/eberhard_huber.jpg" class="img-fluid rounded mt-4" width="90" height="120" alt="Eberhard Huber" %}
             <div class="card-body">
-              <h2 class="card-title">Eberhard Huber</h2>
+              <h3 class="card-title">Eberhard Huber</h3>
               <p class="card-text">Ich empfehle die App weil die „Table of Elements „ es auf meine Empfehlungsliste geschafft haben, die ich im Rahmen meiner Vorlesung den Studierenden nahelege. Was mir besonders gefallen hat ist, dass auch begründete Schwierigkeitsgrade angegeben sind. Am Beispiel der „kollegialen Beratung“ wird das deutlich. So einfach die Methodenbeschreibung auch aussehen mag, der Schwierigkeitsgrad ist hoch weil die Teilnehmenden gute Feedback-Kompetenz mitbringen müssen.</p>
               <div class="row ml-1 mr-1 p-0"></div>
             </div>
