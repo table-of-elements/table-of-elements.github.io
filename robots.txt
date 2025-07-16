@@ -2,6 +2,9 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow:
+Disallow: /de/datenschutz/
+Disallow: /de/impressum/
+Disallow: /en/imprint/
+Disallow: /en/privacy/
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
