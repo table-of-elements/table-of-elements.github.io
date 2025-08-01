@@ -1,4 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /de/datenschutz/
+Disallow: /de/impressum/
+Disallow: /en/imprint/
+Disallow: /en/privacy/
 
 Sitemap: https://www.table-of-elements.io/sitemap.xml
