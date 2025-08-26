@@ -31,7 +31,7 @@ permalink: /de/
         </a>
       </div>
       <div class="col">
-        <a href="https://www.pentaeder.de">
+        <a href="https://www.pentaeder.de/projekte/2025/01/28/table-of-elements/">
           <div class="card h-100 hoverable">
             {% include figure.liquid loading="eager" path="assets/img/eberhard_huber.jpg" class="img-fluid rounded mt-4" width="90" height="120" alt="Eberhard Huber" %}
             <div class="card-body">
