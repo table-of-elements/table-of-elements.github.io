@@ -4,7 +4,6 @@ lang: en
 layout: default
 nav: false
 permalink: /
-noindex: true
 ---
 
 <div class="header-bar">
