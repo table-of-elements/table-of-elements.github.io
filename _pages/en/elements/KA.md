@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/KA.og.png
 # Kanban
 
 Kanban is a control and visualization framework based on the pull principle originally introduced by Taiichi Ōno at Toyota. It helps to optimize the flow of work and identify bottlenecks to improve efficiency.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

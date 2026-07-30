@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/FM.og.png
 # FMEA
 
 Failure Mode and Effects Analysis (FMEA) is a systematic method for identifying and evaluating potential failures in products or processes. It helps minimize risk and increase reliability. It systematically examines desired characteristics, possible failures, and ways to eliminate them.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

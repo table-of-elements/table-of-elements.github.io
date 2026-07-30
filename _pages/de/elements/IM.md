@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/IM.og.png
 # Mittelinventar
 
 Das Mittelanalyse (Englisch: Inventory of Means) oder die Mittelanalyse ist eine Methode zur systematischen Erfassung und Bewertung aller vorhandenen Ressourcen und Mittel. Sie hilft, einen Überblick über die vorhandenen Ressourcen zu erhalten, um diese bei Bedarf einsetzen zu können. Die Mittelorientierung ist ein wesentliches Konzept der Effectuation ([EF](pm-elements://host/element/EF)).
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

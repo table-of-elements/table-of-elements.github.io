@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/PT.og.png
 # Pomodoro Technique
 
 The Pomodoro technique is a time management method that helps to complete tasks more efficiently by structuring work units and breaks.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

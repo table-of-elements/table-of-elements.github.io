@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/RFC.og.png
 # Request for Change
 
 A Request for Change (RFC) is a formal document proposing a change to a project, product, or process. It describes the desired change, its reasons, and potential impacts.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

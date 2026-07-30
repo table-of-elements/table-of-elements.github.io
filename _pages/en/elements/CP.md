@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/CP.og.png
 # Communication Plan
 
 The Communication Plan is a strategic document that defines the communication goals, methods, frequencies, and responsibilities in a project. It ensures that all stakeholders receive the necessary information at the right time.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

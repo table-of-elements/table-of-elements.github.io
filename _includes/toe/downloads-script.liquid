@@ -1,0 +1,140 @@
+<style>
+  .toe-pf-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+  .toe-pf-row input[type="email"]{max-width:240px}
+  .toe-pf-err{color:#c0392b;font-size:13px;display:none;margin-top:6px}
+  .toe-pf-done{font-weight:600;color:#1c8a5c;margin-top:4px}
+  .toe-pf-consent{font-size:12px;color:#6b7488;margin-top:8px;max-width:340px;margin-left:auto;margin-right:auto}
+</style>
+
+<script>
+  // Brevo form action URLs — one per download (poster DE/EN, project canvas DE/EN).
+  // All 4 are wired up.
+  var TOE_BREVO_ACTION = {
+    pde: 'https://a056f318.sibforms.com/serve/MUIFAFU2moRSHgQ-oJWNcS5-tzkdZgFYCzBgqaCPv4R7Zvr5GSwwXO4blFIs6_J_RUNg9HQ-u0xcFDRAyOfrw_xsHlM-ZuhcD5WNOeY8WV2LcWCtBQbjSlP70W-YVHJfzaIXLc6fHBNpiK-hvlDeqH8OXGyPDblVDwse-bR3nIYx-ORYVe7P29SGpFba0YfT7N3d0bdmH1q3XXOdOg==',
+    cven: 'https://a056f318.sibforms.com/serve/MUIFAG_wP9bmwFkvVmezBERKdasNvjkakAhAM-nhJv7OFyNokznoeN36uKSlB1G_AfQpSdG5JcfQGS69G7MAQVbxp6mWfEvOWbEu5ZyVaocaV1qjxPnKVHclKU9DH6wu4vzFa7gr3wJbWRFnVBznhlDaoDxRm3Bn2cNmGlSstJRTQWyMcF0a1HmWJOsCNGQVY6IzdJExPE0UAQxqHg==',
+    cvde: 'https://a056f318.sibforms.com/serve/MUIFAEkjmXy0L2fJjxB9B817Q5CIIGp6wSeIx9W_zT6cB2ihab9_AXlkCDwJbEs0kxCQOqm3w-GwTFpfGrVshiAo0JGPdD7udS94ji38brtbDtQHlgHLjtP7fDT0OQFMK_70dhbNFv1MPrEyK6_slkKUJwDglyGoGd30BsnX7DKym6aw3iaxhTwreGRmAvozR0V--6IDaMV_jRFSHg==',
+    pen: 'https://a056f318.sibforms.com/serve/MUIFAOgLHKMWfRNIuqhyoZooGoqFVbyU05VrJiV-83vXShR9xqPjGqiyzD195dPLSzBH8mijj7GS649hxPR-0Sd2guZJsNXi7G7hNFri5avTa8OsZgO80JDjKot8noI0QJKo4MtfzkquKZWX5n4b-e18lnkuryFie627RJBNJ1QGnzxc0khF6eIQCtdPZgj3QTbXuPcl9jo0rDcxjQ=='
+  };
+
+  var TOE_PDF_URL = {
+    pde: '/assets/downloads/poster-de.pdf',
+    pen: '/assets/downloads/poster-en.pdf',
+    cvde: '/assets/downloads/project-canvas-de.pdf',
+    cven: '/assets/downloads/project-canvas-en.pdf'
+  };
+
+  var TOE_LOCALE = { pde: 'de', cvde: 'de', pen: 'en', cven: 'en' };
+
+  var TOE_TXT = {
+    de: {
+      placeholder: 'deine@email.de',
+      submit: 'Absenden',
+      err: 'Bitte eine gültige E-Mail-Adresse eingeben.',
+      done: '✓ Unterwegs zu deinem Postfach',
+      consent: 'Mit dem Absenden erhältst du eine Bestätigungs-E-Mail (Double-Opt-in) und danach den Download-Link.'
+    },
+    en: {
+      placeholder: 'you@email.com',
+      submit: 'Submit',
+      err: 'Please enter a valid email address.',
+      done: '✓ On its way to your inbox',
+      consent: 'By submitting you\'ll get a confirmation email (double opt-in) followed by the download link.'
+    }
+  };
+
+  function toeSubmitToBrevo(id, email) {
+    var action = TOE_BREVO_ACTION[id];
+    if (!action) return;
+    var iframeName = 'toe-brevo-frame-' + id;
+    var iframe = document.createElement('iframe');
+    iframe.name = iframeName;
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+
+    var form = document.createElement('form');
+    form.action = action;
+    form.method = 'POST';
+    form.target = iframeName;
+
+    function addField(name, value) {
+      var inp = document.createElement('input');
+      inp.type = 'hidden';
+      inp.name = name;
+      inp.value = value;
+      form.appendChild(inp);
+    }
+    addField('EMAIL', email);
+    addField('email_address_check', ''); // Honeypot
+    addField('locale', TOE_LOCALE[id] || 'de');
+    // Brevo's own embed renders this as a required consent checkbox
+    // (id="OPT_IN", value="1"). Our compact form shows the same consent
+    // text instead of an actual checkbox, so we send the equivalent value
+    // here — without it Brevo silently rejects the submission server-side
+    // (the hidden iframe swallows that error, so nothing visibly failed).
+    addField('OPT_IN', '1');
+
+    document.body.appendChild(form);
+    form.submit();
+    setTimeout(function () {
+      if (form.parentNode) form.parentNode.removeChild(form);
+      if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+    }, 4000);
+  }
+
+  function toePosterForm(id) {
+    var host = document.getElementById('pf-' + id);
+    if (!host) return;
+    var t = TOE_TXT[TOE_LOCALE[id] || 'de'];
+    host.innerHTML =
+      '<div class="toe-pf-row">' +
+      '<input type="email" id="pf-email-' + id + '" placeholder="' + t.placeholder + '" class="form-control">' +
+      '<button class="btn btn-primary" data-toe-submit="' + id + '">' + t.submit + '</button>' +
+      '</div>' +
+      '<div class="toe-pf-err" id="pf-err-' + id + '">' + t.err + '</div>' +
+      '<div class="toe-pf-consent">' + t.consent + '</div>';
+  }
+
+  function toePosterSubmit(id) {
+    var input = document.getElementById('pf-email-' + id);
+    if (!input) return;
+    var email = input.value.trim();
+    var ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    var t = TOE_TXT[TOE_LOCALE[id] || 'de'];
+    if (!ok) {
+      document.getElementById('pf-err-' + id).style.display = 'block';
+      input.focus();
+      return;
+    }
+    toeSubmitToBrevo(id, email);
+    document.getElementById('pf-' + id).innerHTML = '<div class="toe-pf-done">' + t.done + '</div>';
+  }
+
+  // Bind clicks via event delegation on `document` instead of inline
+  // onclick="..." attributes. This is more robust: it doesn't depend on the
+  // build pipeline's JS/HTML minifier leaving inline event-handler
+  // attributes and global function names untouched, and it automatically
+  // covers the "Submit" button that gets injected into the page later
+  // (no re-binding needed after the innerHTML swap in toePosterForm).
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var dl = t.closest('[data-toe-download]');
+    if (dl) {
+      toePosterForm(dl.getAttribute('data-toe-download'));
+      return;
+    }
+    var sub = t.closest('[data-toe-submit]');
+    if (sub) {
+      toePosterSubmit(sub.getAttribute('data-toe-submit'));
+    }
+  });
+
+  // Also submit the email on Enter inside the email field.
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter') return;
+    var t = e.target;
+    if (!t || !t.id || t.id.indexOf('pf-email-') !== 0) return;
+    e.preventDefault();
+    toePosterSubmit(t.id.replace('pf-email-', ''));
+  });
+</script>

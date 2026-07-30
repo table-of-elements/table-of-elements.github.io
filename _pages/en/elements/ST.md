@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/ST.og.png
 # Storytelling
 
 Storytelling is a method of communicating ideas, concepts, and information through stories. Storytelling enhances the audience's understanding, memory, and engagement.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

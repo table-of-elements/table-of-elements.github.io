@@ -45,7 +45,12 @@
           </div>
         {% endif %}
       {% else %}
-        {{ content }}
+        {% if page.url contains '/elements/' %}
+          <div class="toe-hero-float">{{ content }}</div>
+          {% include toe/element-extra.liquid %}
+        {% else %}
+          {{ content }}
+        {% endif %}
       {% endif %}
     </div>
 

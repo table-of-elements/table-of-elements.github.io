@@ -1,0 +1,116 @@
+// Table of Elements — small additions for the redesigned homepage sections
+// (poster teaser, book & app cards, follow-us cards). Kept minimal and
+// scoped with a toe- prefix so it doesn't collide with existing al-folio
+// styles.
+
+.toe-gap-24 {
+  gap: 24px;
+}
+
+.toe-gap-14 {
+  gap: 14px;
+}
+
+.toe-flex-1 {
+  flex: 1;
+  min-width: 220px;
+}
+
+.toe-poster-preview {
+  width: 100%;
+  max-width: 440px;
+  flex: 1 1 320px;
+}
+
+.toe-book-cover {
+  width: 100%;
+  max-width: 160px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.toe-app-icon {
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toe-follow-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toe-follow-card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Methods overview page (/de/methoden/, /en/methods/)
+
+.toe-legend {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.toe-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 11px;
+  border-radius: 20px;
+}
+
+.toe-legend-item i {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.toe-phase-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7488;
+  margin-bottom: 12px;
+}
+
+.toe-tilegrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.toe-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 92px;
+  height: 68px;
+  border-radius: 6px;
+  padding: 6px 8px;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.toe-tile:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.toe-tile-code {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.toe-tile-title {
+  font-size: 10px;
+  line-height: 1.2;
+  margin-top: 2px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

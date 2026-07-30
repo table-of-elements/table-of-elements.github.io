@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/SW.og.png
 # SWOT Analyse
 
 Die SWOT-Analyse ist ein strategisches Planungsinstrument, das es ermöglicht, die internen Stärken und Schwächen sowie die externen Chancen und Bedrohungen eines Projekts oder einer Organisation zu identifizieren und mit ihnen zu arbeiten.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/AI.og.png
 # Action Items
 
 The Action Item List is a simple tool for managing and tracking tasks and open issues in a project. It helps clarify responsibilities and monitor progress.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

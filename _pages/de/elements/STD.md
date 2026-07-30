@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/STD.og.png
 # Stakeholderdiagramm
 
 Ein Stakeholderdiagramm ist ein visuelles Werkzeug zur Darstellung und Analyse der Beziehungen und Einflüsse der Stakeholder in einem Projekt. Es hilft bei der Ableitung und Planung von Kommunikations- und Managementstrategien.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

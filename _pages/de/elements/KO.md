@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/KO.og.png
 # Kick Off
 
 Ein Kick-off-Meeting ist die erste offizielle Sitzung eines Projekts. Es dient dazu, das Projektteam zusammenzubringen und zu motivieren und alle auf den gleichen Stand in Bezug auf die Projektziele, den Zeitplan, die Rollen und die Erwartungen zu bringen.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

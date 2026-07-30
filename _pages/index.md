@@ -1,10 +1,13 @@
 ---
 hide_navbar: true
-lang: en
+lang: de
 layout: default
 nav: false
 permalink: /
+redirect: /de/
 ---
+
+<script>window.location.replace("{{ '/de/' | relative_url }}");</script>
 
 <div class="header-bar">
   <h1>Table of Elements</h1>
@@ -19,4 +22,5 @@ permalink: /
       <h3><a href="/en/">English</a></h3>
     </div>
   </div>
+  <p class="text-center text-muted">Du wirst automatisch weitergeleitet …</p>
 </div>

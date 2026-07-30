@@ -23,11 +23,23 @@ description:
     content: Table of Elements Methodensystem – Ihr strategischer Vorteil im Projektmanagement
 
 navigation:
-  - title: Shop
-    url: https://shop.table-of-elements.io
+  - title: Methods
+    url: /en/methods/
     lang: en
-  - title: Shop
-    url: https://shop.table-of-elements.io
+  - title: Methoden
+    url: /de/methoden/
+    lang: de
+  - title: Downloads
+    url: /en/downloads/
+    lang: en
+  - title: Downloads
+    url: /de/downloads/
+    lang: de
+  - title: Book & App
+    url: /en/book-app/
+    lang: en
+  - title: Buch & App
+    url: /de/buch-app/
     lang: de
   - title: Privacy
     url: /en/privacy/

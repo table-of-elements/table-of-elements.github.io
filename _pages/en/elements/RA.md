@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/RA.og.png
 # RACI-Matrix
 
 The RACI matrix is a tool that helps to clarify and assign roles and responsibilities in a project. It helps to define clear responsibilities and thus avoid misunderstandings.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

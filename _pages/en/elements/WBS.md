@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/WBS.og.png
 # Work Breakdown Structure
 
 The Work Breakdown Structure is a hierarchical representation of all tasks and subtasks of a project. It helps define the project scope and break the work into manageable tasks.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

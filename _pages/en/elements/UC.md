@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/UC.og.png
 # Use Case
 
 A Use Case is a detailed description of a system or application from the user's perspective. It describes the interactions between the user and the system to achieve a specific goal.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

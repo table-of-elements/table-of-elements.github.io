@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/SCR.og.png
 # SCRUM
 
 Scrum ist ein agiles Rahmenwerk, das Teams dabei unterstützt, komplexe Projekte effektiv zu managen und Produkte zu liefern. Es basiert auf einer iterativen und inkrementellen Vorgehensweise, die regelmäßige Überprüfungen und Anpassungen beinhaltet.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

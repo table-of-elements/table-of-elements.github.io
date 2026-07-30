@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/SKN.og.png
 # Sketchnote
 
 Sketchnotes are visual notes that are created by combining hand-drawn elements and text. They help to present complex information in a simple and memorable way and can be used as meeting minutes, for example.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

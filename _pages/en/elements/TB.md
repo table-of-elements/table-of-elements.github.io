@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/TB.og.png
 # Time Boxing
 
 Timeboxing is a time management method that sets fixed time periods for specific tasks or activities. It helps increase productivity and minimize distractions.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>
