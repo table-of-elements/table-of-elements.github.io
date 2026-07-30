@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/PC.og.png
 # Projektauftrag
 
 Der Projektauftrag (Englisch: Project Charter) ist ein Dokument, das die wichtigsten Informationen über ein Projekt zusammenfasst. Er dient als formelle Genehmigung des Projekts und legt die grundlegenden Ziele und den Umfang fest.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

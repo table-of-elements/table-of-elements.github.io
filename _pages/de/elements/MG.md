@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/MG.og.png
 # Aus Rot mach Grün
 
 Das einfache Konzept der „Aus Rot wird Grün“-Methode (Englisch: Making it green) zur Projektsteuerung besteht darin, die Arbeitspakete farblich zu kennzeichnen und so ihren Fertigstellungsgrad sichtbar zu machen.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

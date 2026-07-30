@@ -1,0 +1,283 @@
+// Table of Elements — site-wide visual theme, matching the design prototype.
+// Loaded after Bootstrap/MDB in main.css, so these rules win the cascade
+// without needing !important in most places.
+
+:root {
+  --toe-ink: #1c2230;
+  --toe-ink-soft: #55607a;
+  --toe-line: #e4e7ee;
+  --toe-bg: #f7f8fb;
+  --toe-cta: #2b3a67;
+  --toe-cta-hover: #1f2c50;
+  --toe-radius: 14px;
+
+  // Override the al-folio theme's default accent color (a teal) so the
+  // nav bar, footer links, and other theme chrome use our brand blue too.
+  --global-theme-color: var(--toe-cta);
+  --global-hover-color: var(--toe-cta-hover);
+}
+
+body {
+  background: var(--toe-bg);
+  color: var(--toe-ink);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--toe-cta);
+}
+
+h1,
+.post-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--toe-ink);
+}
+
+h2 {
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  color: var(--toe-ink);
+}
+
+h3 {
+  font-weight: 700;
+  color: var(--toe-ink);
+}
+
+.lead,
+.post-description {
+  color: var(--toe-ink-soft);
+}
+
+// Cards
+.card {
+  border: 1px solid var(--toe-line);
+  border-radius: var(--toe-radius);
+  box-shadow: 0 2px 10px rgba(28, 34, 48, 0.04);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(28, 34, 48, 0.1);
+}
+
+// Buttons
+.btn-primary {
+  background-color: var(--toe-cta);
+  border-color: var(--toe-cta);
+  border-radius: 11px;
+  font-weight: 700;
+  padding: 10px 22px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--toe-cta-hover) !important;
+  border-color: var(--toe-cta-hover) !important;
+}
+
+.btn-outline-primary {
+  color: var(--toe-cta);
+  border-color: #cfd6e6;
+  border-radius: 11px;
+  font-weight: 700;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #f2f5fb !important;
+  border-color: #b7c1d8 !important;
+  color: var(--toe-cta) !important;
+}
+
+// "So funktioniert's" / "How it works" step number badge — matches the
+// prototype's .step .num exactly (dark rounded-square, white bold number).
+.toe-step-num {
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+  background: var(--toe-ink);
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+// Homepage hero (eyebrow + headline + lead + buttons + photo tile strip),
+// matching the design prototype's home section 1:1.
+
+.toe-hero-center {
+  text-align: center;
+  padding: 24px 0 8px;
+
+  // The theme's .landing h1, h2 { text-align: left } rule targets the
+  // h1 directly, which beats inherited centering from this wrapper.
+  // Override it back to center, explicitly.
+  h1 {
+    text-align: center;
+  }
+}
+
+.toe-eyebrow {
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--toe-cta);
+}
+
+.toe-lead {
+  color: var(--toe-ink-soft);
+  font-size: clamp(16px, 2vw, 19px);
+  margin: 14px auto 4px;
+  max-width: 640px;
+}
+
+.toe-btnrow {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.toe-pstrip {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px auto 6px;
+  max-width: 760px;
+}
+
+.toe-phototile {
+  display: block;
+  width: 150px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition:
+    transform 0.14s,
+    box-shadow 0.14s;
+}
+
+.toe-phototile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(28, 34, 48, 0.16);
+}
+
+.toe-phototile img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 760px) {
+  .toe-pstrip {
+    max-width: 100%;
+  }
+}
+
+// Element detail page extras (injected via _includes/toe/element-extra.liquid),
+// following the "teaser + incentive" pattern from
+// claude/muster-element-seite-teaser-cta.md: badges, a short context
+// paragraph, one teaser tip, a CTA box, related elements, and a disclaimer.
+
+.toe-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 14px;
+}
+
+.toe-chip {
+  border-radius: 20px;
+  padding: 5px 13px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #eef0f4;
+  color: #4a5265;
+}
+
+.toe-context {
+  color: var(--toe-ink-soft);
+  font-size: 15px;
+  clear: both;
+}
+
+// Make sure the element intro (icon + title + teaser paragraph, all inside
+// the raw {{ content }} markup) uses the same font stack as the rest of the
+// site instead of whatever the markdown/theme default would otherwise pick.
+.toe-hero-float,
+.toe-hero-float * {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.toe-tip-callout {
+  background: #fff9e8;
+  border-left: 3px solid #e6c65c;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 14.5px;
+  margin: 16px 0;
+}
+
+// Element intro: the icon card (from the page's own figure include) floats
+// left, so the title + teaser paragraph + badges flow beside it, matching
+// the phone-app card layout. Wraps to full width below the icon once the
+// content runs past its height. The longer context paragraph clears the
+// float explicitly so it always spans the full width underneath.
+.toe-hero-float figure {
+  float: left;
+  margin: 0 24px 12px 0;
+  max-width: 300px;
+}
+
+.toe-hero-float h1 {
+  margin-top: 0;
+}
+
+@media (max-width: 575px) {
+  .toe-hero-float figure {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 16px;
+  }
+}
+
+.toe-cta-box {
+  background: #eef1f7;
+  border-radius: var(--toe-radius);
+  padding: 20px 24px;
+}
+
+.toe-tip {
+  color: var(--toe-ink-soft);
+  font-size: 13px;
+  font-style: italic;
+}

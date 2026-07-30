@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/KO.og.png
 # Kick Off
 
 A kick-off is the first official meeting of a project. Its purpose is to bring the project team together, motivate them, and get everyone on the same page regarding the project goals, schedule, roles, and expectations.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

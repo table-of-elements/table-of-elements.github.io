@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/REV.og.png
 # Review
 
 A review is a systematic assessment of a project, product, or process to evaluate its status, progress, and quality. It helps identify issues and implement improvements.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

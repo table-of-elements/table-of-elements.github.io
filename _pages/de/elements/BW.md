@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/BW.og.png
 # Brainwriting
 
 Brainwriting ist eine Kreativitätstechnik, bei der die Teilnehmer ihre Ideen aufschreiben, anstatt sie laut auszusprechen. Diese Methode fördert die Ideengenerierung und ermöglicht es jedem, in seinem eigenen Tempo zu arbeiten und gleichermaßen gehört zu werden.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

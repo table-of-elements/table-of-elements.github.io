@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/RA.og.png
 # RACI-Matrix
 
 Die RACI-Matrix ist ein Werkzeug zur Klärung und Zuordnung von Rollen und Verantwortlichkeiten in einem Projekt. Sie hilft, klare Zuständigkeiten festzulegen und damit Missverständnisse zu vermeiden.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

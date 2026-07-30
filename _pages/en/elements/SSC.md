@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/SSC.og.png
 # Start-Stop-Continue
 
 Start-Stop-Continue is a simple method for reflecting on and improving projects or sprints. The team identifies what is going well, what is not going well, and what should be continued
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

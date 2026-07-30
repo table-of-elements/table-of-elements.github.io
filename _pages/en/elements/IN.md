@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/IN.og.png
 # Interview
 
 An interview is a direct questioning of a person or group to gather information. It is particularly suitable for gaining detailed insights and clarifying complex issues.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

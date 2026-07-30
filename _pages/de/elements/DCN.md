@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/DCN.og.png
 # Decision Canvas
 
 Bei dem Decision Canvas handelt es sich um ein visuelles Denkwerkzeug für den Start von Entscheidungsprozessen oder -projekten. Es ermöglicht Personen mit komplexem Entscheidungsbedarf, ihren Entscheidungsbedarf systematisch zu reflektieren und Klarheit zu gewinnen.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

@@ -1,0 +1,78 @@
+{% assign toe_lang = page.lang | default: site.lang %}
+{% assign toe_code = page.name | split: '.' | first %}
+{% assign toe_entry = site.data.elements | where: "code", toe_code | first %}
+
+{% if toe_entry %}
+  {% if toe_lang == 'en' %}
+    {% assign toe_effort = toe_entry.effort_en %}
+    {% assign toe_difficulty = toe_entry.difficulty_en %}
+    {% assign toe_effectiveness = toe_entry.effectiveness_en %}
+    {% assign toe_context = toe_entry.context_en %}
+    {% assign toe_tip = toe_entry.tip_en %}
+    {% assign toe_effort_label = 'Effort' %}
+    {% assign toe_difficulty_label = 'Difficulty' %}
+    {% assign toe_effectiveness_label = 'Effectiveness' %}
+    {% assign toe_tip_label = 'Tip from practice' %}
+    {% assign toe_cta_text = 'The full step-by-step guide and more practical tips are in the app and the book.' %}
+    {% assign toe_cta_app = 'Get the app' %}
+    {% assign toe_cta_book = 'View the book' %}
+    {% assign toe_related_title = 'Related methods' %}
+    {% assign toe_disclaimer = 'Public: teaser, category badges, one tip, related methods. Reserved for book/app: the full step-by-step guide, all further tips, and the detailed assessment.' %}
+  {% else %}
+    {% assign toe_effort = toe_entry.effort_de %}
+    {% assign toe_difficulty = toe_entry.difficulty_de %}
+    {% assign toe_effectiveness = toe_entry.effectiveness_de %}
+    {% assign toe_context = toe_entry.context_de %}
+    {% assign toe_tip = toe_entry.tip_de %}
+    {% assign toe_effort_label = 'Aufwand' %}
+    {% assign toe_difficulty_label = 'Schwierigkeit' %}
+    {% assign toe_effectiveness_label = 'Wirksamkeit' %}
+    {% assign toe_tip_label = 'Tipp aus der Praxis' %}
+    {% assign toe_cta_text = 'Die vollständige Schritt-für-Schritt-Anleitung und weitere Praxis-Tipps findest du in der App und im Buch.' %}
+    {% assign toe_cta_app = 'Zur App' %}
+    {% assign toe_cta_book = 'Zum Buch' %}
+    {% assign toe_related_title = 'Verwandte Elemente' %}
+    {% assign toe_disclaimer = 'Öffentlich: Teaser, Einordnung als Badges, ein Tipp, verwandte Elemente. Zurückgehalten (nur Buch/App): vollständige Anleitung, alle weiteren Tipps und die ausführliche Einordnung.' %}
+  {% endif %}
+
+  <div class="toe-badges">
+    <span class="toe-chip">{{ toe_effort_label }}: {{ toe_effort }}</span>
+    <span class="toe-chip">{{ toe_difficulty_label }}: {{ toe_difficulty }}</span>
+    <span class="toe-chip">{{ toe_effectiveness_label }}: {{ toe_effectiveness }}</span>
+  </div>
+
+  {% if toe_context != blank %}
+    <p class="toe-context">{{ toe_context }}</p>
+  {% endif %}
+
+  {% if toe_tip != blank %}
+    <p class="toe-tip-callout">💡 <strong>{{ toe_tip_label }}:</strong> {{ toe_tip }}</p>
+  {% endif %}
+
+  {% if toe_entry.similar.size > 0 %}
+    <h2 class="mt-5">{{ toe_related_title }}</h2>
+    <div class="toe-tilegrid">
+      {% for sc in toe_entry.similar %}
+        {% assign se = site.data.elements | where: "code", sc | first %}
+        {% if se %}
+          <a href="{{ '/' | append: toe_lang | append: '/elements/' | append: se.code | append: '/' | relative_url }}"
+             class="toe-tile"
+             style="background:{{ se.class_bg }};color:{{ se.class_fg }}">
+            <span class="toe-tile-code">{{ se.code }}</span>
+            <span class="toe-tile-title">{% if toe_lang == 'en' %}{{ se.title_en }}{% else %}{{ se.title_de }}{% endif %}</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="toe-cta-box mt-4">
+    <strong>{{ toe_cta_text }}</strong>
+    <div class="d-flex flex-wrap toe-gap-14 mt-3">
+      <a class="btn btn-primary" href="https://apps.apple.com/at/app/pm-elements/id6738084498" target="_blank" rel="noopener">{{ toe_cta_app }}</a>
+      <a class="btn btn-outline-primary" href="https://www.hanser-fachbuch.de/Das-Methodensystem-fuer-Projekte/978-3-446-48367-5" target="_blank" rel="noopener">{{ toe_cta_book }}</a>
+    </div>
+  </div>
+
+  <p class="toe-tip mt-3">{{ toe_disclaimer }}</p>
+{% endif %}

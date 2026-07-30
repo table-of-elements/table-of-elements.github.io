@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/HQ.og.png
 # Qualitätstafel
 
 Das House of Quality (auch Qualitätstafel genannt) hilft bei der Umsetzung von Kundenanforderungen in technische Spezifikationen und bei der Qualitätssicherung in der Produktentwicklung.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

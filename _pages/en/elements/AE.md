@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/AE.og.png
 # Alternative Evaluation
 
 The alternatives evaluation is a structured procedure for evaluating and selecting the best option from several alternatives. This method helps to make well-founded decisions by taking various criteria and weightings into account.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

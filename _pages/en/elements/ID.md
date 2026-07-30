@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/ID.og.png
 # Ishikawa Diagram
 
 The Ishikawa Diagram, also known as the Fishbone Diagram, is a tool for root cause analysis. It helps identify and visualize potential causes of a problem by categorizing them.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

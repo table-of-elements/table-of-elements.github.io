@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/BP.og.png
 # Big Picture
 
 The big picture is a visualization method used to depict complex relationships. It reflects the overall picture of a project or an organization. The big picture is used to create a common understanding and promote strategic discussions.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

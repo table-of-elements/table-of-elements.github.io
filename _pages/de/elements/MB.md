@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/MB.og.png
 # Mood-Board
 
 Bei einem Mood Board handelt es sich um ein visuelles Werkzeug, das dabei hilft, die Stimmung im Team transparent zu machen und die Empathie im Team zu erhöhen.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

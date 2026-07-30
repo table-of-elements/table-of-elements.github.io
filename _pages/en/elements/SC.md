@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/SC.og.png
 # SCAMPER
 
 SCAMPER is a creativity technique for idea generation and problem solving. It is based on seven questions that help develop new perspectives and approaches.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

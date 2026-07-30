@@ -13,7 +13,3 @@ og_image: /assets/img/elements/de/FB.og.png
 # Feedback
 
 Feedback ist ein wichtiger Kommunikationsprozess, bei dem Informationen über das Verhalten oder die Leistung einer Person oder eines Teams ausgetauscht werden. Ziel ist es, Anerkennung zu geben, Verbesserungen anzuregen und das Lernen zu fördern.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>

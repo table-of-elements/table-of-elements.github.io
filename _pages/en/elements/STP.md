@@ -13,7 +13,3 @@ og_image: /assets/img/elements/en/STP.og.png
 # Stakeholder Profile
 
 A Stakeholder Profile is a document that collects detailed information about a stakeholder to understand their interests, influence, and expectations in the project. It supports the development of targeted communication and management strategies.
-
-<a href="https://apps.apple.com/app/apple-store/id6738084498?pt=127441684&ct=website&mt=8">
-  <img src="{{ "assets/img/en/appstore.png" | relative_url }}" width="120" height="40" alt="Download PM Elements">
-</a>
