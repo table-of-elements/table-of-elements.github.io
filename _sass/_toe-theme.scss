@@ -2,6 +2,14 @@
 // Loaded after Bootstrap/MDB in main.css, so these rules win the cascade
 // without needing !important in most places.
 
+// Keep the centered hero button row (and anything else centered against
+// the full viewport) visually centered even when a vertical scrollbar is
+// present — without this, the scrollbar's width is only ever reserved on
+// the right, so centered content sits a few pixels left of true center.
+html {
+  scrollbar-gutter: stable both-edges;
+}
+
 :root {
   --toe-ink: #1c2230;
   --toe-ink-soft: #55607a;
