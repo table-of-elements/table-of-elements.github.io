@@ -2,6 +2,8 @@
 horizontal: true
 lang: de
 layout: default
+noindex: true
+sitemap: false
 nav: false
 permalink: /de/anmeldung-bestaetigt/
 title: Anmeldung bestätigt

@@ -2,6 +2,7 @@
 horizontal: true
 lang: de
 layout: default
+sitemap: false
 permalink: /de/datenschutz/
 title: Datenschutz
 ---

@@ -2,6 +2,8 @@
 horizontal: true
 lang: en
 layout: default
+noindex: true
+sitemap: false
 nav: false
 permalink: /en/signup-confirmed/
 title: Signup confirmed

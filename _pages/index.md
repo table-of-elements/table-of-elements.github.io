@@ -5,6 +5,8 @@ layout: default
 nav: false
 permalink: /
 redirect: /de/
+canonical: /de/
+sitemap: false
 ---
 
 <script>window.location.replace("{{ '/de/' | relative_url }}");</script>

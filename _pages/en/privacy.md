@@ -2,6 +2,7 @@
 horizontal: true
 lang: en
 layout: default
+sitemap: false
 permalink: /en/privacy/
 title: Privacy
 ---

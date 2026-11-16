@@ -2,6 +2,8 @@
 horizontal: true
 lang: de
 layout: default
+noindex: true
+sitemap: false
 nav: false
 permalink: /de/email-bestaetigen/
 title: Bitte bestätige deine E-Mail
